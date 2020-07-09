@@ -51,7 +51,7 @@ class BuscarPrecos:
             nova_linha = [self.titulo[indice].text,
                             self.localizacao[indice].text, self.precos[indice].text]
             self.planilha_valores.append(nova_linha)
-        self.planilha.save('Preços memória ddr3.xlsx')
+        self.planilha.save('Valores.xlsx')
 
 
 root = BuscarPrecos()
